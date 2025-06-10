@@ -1,13 +1,13 @@
 install:
-	pip install upgrade pip && \
-		pip install -r requirements.txt
+	pip install --upgrade pip &&\
+ 		pip install -r requirements.txt
 
 install-aws:
-	pip install upgrade pip && \
+	pip install --upgrade pip && \
 		pip install -r requirements-aws.txt
 
 install-amazon-linux:
-	pip install upgrade pip && \
+	pip install --upgrade pip && \
 		pip install -r amazon-linux.txt
 
 lint:
