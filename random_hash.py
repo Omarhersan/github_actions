@@ -6,7 +6,7 @@ def generate_random_hash() -> str:
     """
     return hashlib.sha256().hexdigest()[:32]
 
-def hash_starts_on_two_consecutive_zeros(hash: str) -> bool:
+def hash_starts_on_two_consecutive_zeros(hash_value: str) -> bool:
     """
     Checks if the hash starts with two consecutive zeros.
     
