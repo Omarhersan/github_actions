@@ -16,7 +16,7 @@ def hash_starts_on_two_consecutive_zeros(hash_value: str) -> bool:
     Returns:
         bool: True if the hash starts with '00', False otherwise.
     """
-    return hash.startswith('00')
+    return hash_value.startswith('00')
 
 def achieves_target_hash() -> bool:
     """
