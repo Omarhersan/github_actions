@@ -12,7 +12,7 @@ jobs:
           python-version: 3.12
       - name: Install dependencies
         run: |
-          make Install
+          make install
       - name: lint
         run: |
           make Lint
